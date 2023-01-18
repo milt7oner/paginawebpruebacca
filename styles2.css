@@ -1,0 +1,350 @@
+/* Global */
+@import url('https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-attachment: fixed;
+  background-size: cover;
+  overflow-x:hidden;
+  
+}
+.image-page-two img{
+    width: 1900px;
+    height: 1000px;
+}
+.img-personitas{
+    position: absolute;
+    left: 1100px;
+    top: 40px;
+  }
+  .img-logoAguila{
+    position: absolute;
+    top: 320px;
+    left: 100px;
+  }
+  .Texto-Titulo h5{
+    position: absolute;
+    color: #88be32;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 80PX;
+    width: 900px;
+    left: 100px;
+    top: 470px;
+      
+  }
+  .Texto-Titulo h6{
+    color: white;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 18PX;
+    font-weight: normal;
+    position: absolute;
+    left: 760px;
+    top: 670px;
+  }
+  .pageTwo{
+    width: 1900px;
+    height: 1000px;
+    position:relative ;
+    top: -20px;
+  }
+  .pageTwo p{
+    color: black;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 30PX;
+    font-weight: normal;
+    position: absolute;
+    left: 200px;
+    top: 350px;
+    text-align: center;
+  }
+  .pageTwo h5{
+    color: black;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-size: 18PX;
+    font-weight: normal;
+    position: absolute;
+    left: 480px;
+    top: 600px;
+  }
+  .cuadros .cuadro-verde img{
+    position: absolute;
+    top: 16px;
+    left: 912px;
+    width: 500px;
+    height: 500px;
+  }
+  .cuadros .cuadro-verde h3{
+    position: absolute;
+    top: 100px;
+    left: 1020px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-weight: normal;
+    letter-spacing: 3px;
+  }
+  .cuadros .cuadro-verde ul{
+    position: absolute;
+    left: 1050px;
+    top: 150px;
+    color: white;
+    
+  }
+  .cuadros .cuadro-verde ul li a{
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-weight: normal;
+    color: white;
+    text-decoration:none;
+    font-size: 25px;
+  }
+  .cuadros .cuadro-azul img{
+    position: absolute;
+    top: 517px;
+    left: 1412px;
+    width: 500px;
+    height: 503px; 
+  }
+  .cuadros .cuadro-azul h3{
+    position: absolute;
+    top: 620px;
+    left: 1500px;
+    color: white;
+    font-size: 30px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-weight: normal;
+    letter-spacing: 3px;
+  }
+  .cuadros .cuadro-azul ul{
+    position: absolute;
+    left: 1530px;
+    top: 690px;  
+    color: white;
+  }
+  .cuadros .cuadro-azul ul li a{
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-weight: lighter;
+    text-decoration:none;
+    font-size: 25px;
+    color: white;
+  }
+  
+  .cuadros .cuadro-blanco img{
+    width: 912px;
+    height: 1000px;  
+  }
+  .cuadros .cuadro-blanco-right h3{
+    position: absolute;
+    top: 100px;
+    left: 1500px;
+    color: #192159;
+    font-size: 30px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-weight: normal;
+    letter-spacing: 3px;
+  }
+  .cuadros .cuadro-blanco-right ul{
+    position: absolute;
+    left: 1530px;
+    top: 150px;  
+  }
+  .cuadros .cuadro-blanco-right ul li a{
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-weight: lighter;
+    text-decoration:none;
+    font-size: 25px;
+    color: black;
+  }
+  .cuadros .cuadro-blanco-left h3{
+    position: absolute;
+    top: 600px;
+    left: 1020px;
+    color: #192159;
+    font-size: 30px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-weight: normal;
+    letter-spacing: 3px;
+  }
+  .cuadros .cuadro-blanco-left ul{
+    position: absolute;
+    left: 1050px;
+    top: 690px;  
+  }
+  .cuadros .cuadro-blanco-left ul li a{
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-weight: lighter;
+    text-decoration:none;
+    font-size: 25px;
+    color: black;
+  }
+  .pageThree{
+    width: 1900px;
+    height: 1000px;
+  } 
+ .imagen-page-three img{
+      position: absolute;
+      width: 1903px;
+      height: 1000px;
+  }
+  .pageThree .page-three-parrafo-one{
+    position: absolute;
+    color: white;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-weight: lighter;
+    top: 2100px;
+    left: 400px;
+    font-size: 25px;
+  }
+  .pageThree h3{
+    position: absolute;
+    color: white;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-weight: lighter;
+    top: 2350px;
+    left: 430px;
+    font-size: 25px;
+  }
+  .pageThree .page-three-parrafo-two{
+    position: absolute;
+    color: white;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-weight: lighter;
+    top: 2400px;
+    left: 400px;
+    font-size: 25px;
+  }
+  .pageFour{
+    color: white;
+    width: 1903px;
+    height: 600px;
+    
+  }
+  .pageFour .titulo-page-four h2{
+    position: absolute;
+    color: #192159;
+    top: 3050px;
+    font-size: 50px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-weight: lighter;
+    left: 850px;
+    
+   
+  }
+  .pageFour .titulo-page-four p{
+    position: absolute;
+    color: black;
+    top: 3100px;
+    font-size: 30px;
+    font-family: 'Familjen Grotesk', sans-serif;
+    font-weight: lighter;
+    left: 380px;
+    text-align: center;
+  }
+  .pageFour .qWhat{
+    position: absolute;
+    width: 429px;
+    height: 287px;
+    top: 3250px;
+    left: 150px;
+  }
+  .pageFour .qWhat button{
+    background-image: url('/img/qWhat.png');
+    width: 429px;
+    height: 287px;
+  }
+  .pageFour .accion{
+    position: absolute;
+    width: 429px;
+    height: 287px;
+    top: 3250px;
+    left: 740px;
+  }
+  .pageFour .accion button{
+    background-image: url('/img/accion.png');
+    width: 429px;
+    height: 287px;
+  }
+  .pageFour .restaurante{
+    position: absolute;
+    width: 429px;
+    height: 287px;
+    top: 3250px;
+    left: 1300px;
+  }
+  .pageFour .restaurante button{
+    background-image: url('/img/restaurante.png');
+    width: 429px;
+    height: 287px;
+  }
+
+  .pie-pagina{
+    width: 100%;
+    background-color: white;
+  }
+  .pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+  }
+  .pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+  }
+  .pie-pagina .grupo-1 .box h2{
+    color: #192159;
+    margin-bottom: 25px;
+    font-size: 20px;
+  }
+  .pie-pagina .grupo-1 .box p{
+    color: #192159;
+    margin-bottom: 10px;
+  }
+  .pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+  }
+  .pie-pagina .grupo-1 .red-social a:hover{
+    color: #192159;
+  }
+  .pie-pagina .grupo-2{
+    background-color: #192159;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+  }
+  .pie-pagina .grupo-2 small{
+    font-size: 15px;
+  }
+  @media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+  }
+  
+
+
+  
